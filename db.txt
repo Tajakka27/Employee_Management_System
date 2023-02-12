@@ -1,0 +1,24 @@
+
+mysql -u root -p
+USE tajakka;
+ CREATE TABLE IF NOT EXISTS Employee(
+     id int,
+     name varchar(255),
+     age int,
+     doj DATE,
+     email varchar(255),
+     gender varchar(255),
+     contact varchar(20),
+     address varchar (255)
+ );
+
+
+ INSERT INTO Employee(id,name,age.doj,email,gender,contact,address) VALUES (e_id,e_name,e_age,e_doj,e_email,e_gender,e_contact,e_address);
+
+
+      # cursor=con.cursor()
+        # query="INSERT INTO P(PersonID,Name) VALUES (10,'tt')"
+        # cursor.execute(query)
+        # con.commit()
+
+INSERT INTO Employee(id,name,age,doj,email,gender,contact,address) VALUES (5,'taj',20,'2011-11-11','tajakka2002@gmail.com','female','01753861142','house2,road 31,block D');
